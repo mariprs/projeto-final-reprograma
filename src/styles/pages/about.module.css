@@ -1,0 +1,202 @@
+.aboutBg {  
+  min-width: 85rem;
+  z-index: 1;
+  filter: opacity(0.5);
+}
+
+.container1 {
+  margin: auto;
+  padding: 0.01em 16px;
+  color: #d4975e;
+  background-color: #103335;
+  max-width: 50%;
+  box-shadow: 5px 2px #0f292b;
+  line-height: 19px;
+  top: -6rem;
+  right: 1rem;
+  position: relative;
+  border-radius: 20px;
+}
+
+.container2 {
+  margin: auto;
+  padding: 0.01em 16px;
+  color: #d4975e;
+  box-shadow: 5px 2px #0f292b;
+  background-color: #103335;
+  max-width: 39%;
+  line-height: 19px;
+  top: 4rem;
+  right: 0rem;
+  position: relative;
+  border-radius: 20px;
+}
+
+label{
+ color: #b6e7e9;
+}
+
+.container3 {
+  margin: auto;
+  padding: 0.01em 16px;
+  color: #d4975e;
+  background-color: #103335;
+  max-width: 31%;
+  line-height: 19px;
+  top: 4rem;
+  right: 1rem;
+  z-index: 4;
+  box-shadow: 5px 2px #0f292b;
+  position: relative;
+  border-radius: 20px;
+}
+
+.container4{
+  margin: auto;
+  padding: 0.01em 16px;
+  box-shadow: 5px 2px #0f292b;
+  color: #d4975e;
+  background-color: #103335;
+  max-width: 34rem;
+  line-height: 19px;
+  top: 3rem;
+  z-index: 4;
+  position: relative;
+  border-radius: 20px;
+}
+
+.subtitle{
+  color: #b6e7e9;
+}
+
+form{
+  color: #b6e7e9;
+}
+
+.container5{
+  padding: 0.2em;
+  color: #d4975e;
+  box-shadow: 5px 2px #0f292b;
+  background-color: #103335;
+  max-width: 20rem;
+  line-height: 19px;
+  top: -5rem;
+  right: -54rem;
+  z-index: 4;
+  position: relative;
+  border-radius: 20px;
+}
+
+ul{
+  padding: 0.4rem;
+}
+
+.container6{
+  padding: 0.009em;
+  color: #d4975e;
+  background-color: #103335;
+  max-width: 27rem;
+  line-height: 19px;
+  top: -115rem;
+  right: -2rem;
+  z-index: 4;
+  position: relative;
+  box-shadow: 5px 2px #0f292b;
+  border-radius: 20px;
+}
+
+.arrow{
+  max-height: 1rem;
+  padding: 0.2rem;    
+}
+
+legend{
+  background-color: transparent;
+  color: #b6e7e9;
+  font-size: 1rem;
+}
+
+.aboutTitle{
+  background-color: #103335;
+  max-width: 30%;
+  position: relative;
+  right: -55rem;
+  border-radius: 20px;
+}
+
+.canalAutismoLogo {
+  max-height: 20rem;
+  position: relative;
+  padding: 1rem;
+  background-color: #103335;
+  border-radius: 20px;
+  right: -56rem;
+  box-shadow: 5px 2px #0f292b;
+  top: 3rem;
+}
+
+
+.reprogramaLogo{
+  max-height: 4rem;
+  background-color: #103335;
+  border-radius: 20px;
+  position: absolute;
+  box-shadow: 5px 2px #0f292b;
+  top: 6em;
+  right: -27rem;
+}
+
+.timelineItem {
+  position: relative;
+  border-bottom: 5px dashed #206267;
+  width: 100%;
+  z-index: 4;
+  left: 4rem;
+  top: -100rem;
+}
+
+.pAbout {
+  font-size: .9rem;
+  text-align: justify;
+}
+  
+.title {
+  position: absolute;
+  top: 50%;
+  text-transform: uppercase;
+  box-shadow: 5px 2px #0f292b;
+  height: 1.6rem;
+  color: #A4956F;
+  background-color: #103335;
+  text-align: center;
+  padding: 10px;
+}
+  
+.timelineItem:nth-child(2n) {
+  border-left: 5px dashed #206267;
+  display: flex;
+  max-width: 43rem;
+  padding: 1.5rem;
+  z-index: 1;
+}
+  
+.timelineItem:nth-child(2n) .timelineMilestone {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+  
+.timelineItem:nth-child(2n + 1) {
+  border-right: 5px dashed #206267;
+  max-height: 7em;
+  max-width: 46rem;
+  left: 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+.timelineItem:nth-child(2n + 1) .timelineMilestone {
+  right: 0;
+  top: 2em;
+  position: absolute;
+  transform: translate(50%, -50%);
+}

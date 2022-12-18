@@ -1,0 +1,77 @@
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('/src/styles/fonts/CascadiaCode.woff2') format('woff2'),
+  url('/src/styles/fonts/CascadiaCode-Bold') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.imgLogo {
+  max-width: 60%;
+  margin: 0;
+}
+
+.menuBg{
+  position: fixed;
+  min-width: 100%;
+  z-index:5;
+}
+
+.menuUl{
+  display: inline-flex;
+  min-width: 100%;
+  background-color: #135256eb;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+
+  .menuItem{
+    list-style: none;
+  }
+  
+  .menuLink {
+    color: #d4975e;
+    z-index: 1;
+    padding-right: 2.5em;
+    font-size: 1.3em;
+  }
+  
+  .buttonBg{  
+    height: 6vh;
+    align-items: center;
+    background-color: #d36234;
+    border-radius: 8px;
+    flex-basis: 100%;
+    display: flex;
+    box-shadow: 3px 3px 3px #041925ca;
+    color: #011a15;
+    font-weight: 700;
+  }
+
+  .buttonTxt{
+    text-align: center; 
+    height: 60%;
+    margin-top:5px;
+    border: none;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-family: 'Inter';
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 16px;
+    display: flex;
+  }

@@ -1,0 +1,321 @@
+.pageTecnologias {
+  color: #d4815e;
+  font-family: Cascadia Code;
+  font-size: .9rem;
+  font-weight: 500;
+  display: inline-grid;
+}
+  
+.backgroundPage {
+  min-width: 87rem;
+  min-height: 46rem;
+  background-image: url(/src/assets/Tecnologias/backgroundTecnologias.png);
+  background-position: center;
+  background-size: cover;
+  filter: opacity(.1);
+  flex-basis: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 3.5rem;
+}
+
+.tecnologias {
+  color: #55a39b;
+  text-align: -webkit-center;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #12373a;
+  z-index: 2;
+  font-size: 2.125rem;
+  line-height: 40px;
+  position: relative;
+  top: 5rem;
+  right: -37rem;
+  padding: 0.2rem;  
+}
+
+
+.rectangle1{
+  width: 50%;
+  background-color: #206267;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  z-index: 3;
+  gap: 10px;
+  position: absolute;
+  top: 10rem;
+  right: 19rem;
+  padding: 0.3rem;
+  display: inline-flex;
+}
+  
+.rectangleHtml {
+  height: 90%;
+  background-color: #113535;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 44%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: .063em;
+  padding-bottom: .063em;
+  padding-right: .125em;
+  display: flex;
+}
+  
+.imgHtml{  
+  width: 63px;
+  padding: 0.5rem;
+  height: 82px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0.063em;
+}
+  
+.infoHtml{
+  margin-left: .313em;
+  max-width: 10rem;
+}
+  
+.rectangleCss {
+  height: 90%;
+  background-color: #113535;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 44%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: .063em;
+  margin-left: 1em;
+  padding-bottom: .125em;
+  padding-right: .125em;
+  display: flex;
+}
+  
+.imgCss {
+  width: 56px;
+  padding: 0.5rem;
+  height: 82px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0.063em;
+}
+  
+.infoCss {
+  margin-top: .125em;
+  max-width: 10rem;
+}
+  
+.rectangle2 {
+  width: 50%;
+  background-color: #206267;
+  border-radius: 10px;
+  z-index: 3;
+  position: absolute;
+  top: 17rem;
+  right: 19rem;
+  padding: 0.3rem;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+  
+.rectangleJs {
+  height: 90%;
+  background-color: #113535;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 44%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: .063em;
+  padding-bottom: .063em;
+  padding-right: .125em;
+  display: flex;
+}
+  
+.jsImg{
+  width: 63px;
+  padding: 0.5rem;
+  height: 82px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0.063em;
+}
+  
+.infoJs {
+  margin-top: .063em;
+  margin-left: .188em;
+  max-width: 10rem;
+}
+
+.angularImg{
+  width: 93px;
+  height: 100px;
+  object-fit: cover;
+  z-index: 1;
+}
+  
+.rectangleAngular {
+  height: 90%;
+  background-color: #113535;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 44%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: .063em;
+  padding-bottom: .063em;
+  padding-right: .125em;
+  display: flex;
+}
+  
+.infoAngular {
+  margin-top: .063em;
+  max-width: 10rem;
+}
+  
+.rectangle3 {
+  width: 50%;
+  background-color: #206267;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  z-index: 3;
+  position: absolute;
+  top: 24rem;
+  gap: 10px;
+  right: 19rem;
+  padding: 0.3rem;
+  display: inline-flex;
+}
+
+.githubImg {
+  width: 74px;
+  padding: 0.5rem;
+  height: 75px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0.063em;
+}
+  
+.rectangleGithub {
+  max-width: 18.5rem;
+  background-color: #113535;
+  border-radius: 10px;
+  flex-basis: 49%;
+  align-items: center;
+  padding: 0.3em;
+  right: 0.5rem;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+.infoGithub {
+  margin-top: .125em;
+  max-width: 10rem;
+}
+  
+.rectangleGit {
+  min-width: 20.5em;
+  background-color: #113535;
+  border-radius: 10px;
+  left: 0.4em;
+  position: relative;
+  padding: 0.3em;
+  display: flex;
+  align-items: center;
+}
+  
+.gitImg {
+  width: 80px;
+  padding: 0.5rem;
+  height: 45px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0.063em;
+}
+  
+.infoGit {
+  margin-top: .125em;
+  margin-left: .375em;
+  max-width: 10rem;
+}
+  
+.rectangle4 {
+  width: 50%;
+  background-color: #206267;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  z-index: 3;
+  position: absolute;
+  top: 34.4em;
+  right: 19rem;
+  gap: 10px;
+  padding: 0.3rem;
+  display: inline-flex;
+}
+  
+.rectangleUiux {
+  min-height: 90%;
+  background-color: #113535;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 44%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  display: flex;
+}
+  
+.uiuxImg {
+  width: 116px;
+  padding: 0.5rem;
+  height: 59px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0.063em;
+}
+  
+.infoUiux {
+  margin-left: 1.5em;
+  max-width: 10rem;
+}
+  
+.rectangleEmpreg {
+  height: 90%;
+  background-color: #113535;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 44%;
+  justify-content: center;
+  align-items: center;
+  margin-top: .063em;
+  margin-left: 1em;
+  padding-bottom: .063em;
+  padding-right: .125em;
+  display: flex;
+}
+  
+.empregabilidade {
+  width: 48px;
+  padding: 0.5rem;
+  height: 80px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0.063em;
+}
+  
+.empregabilidadeInfo {
+  margin-left: .938em;
+  max-width: 10rem;
+}
+  

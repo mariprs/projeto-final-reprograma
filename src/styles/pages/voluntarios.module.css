@@ -1,0 +1,90 @@
+.bgImg1{
+    min-width: 75rem;
+    position: relative;
+    z-index: 1;
+    right: 5rem;
+    top: 28rem;
+    min-height: 30rem;
+}
+
+.bgImg2{
+    max-width: 10rem;
+    position: relative;
+    left: 69rem;
+    z-index: 1;
+    top: -75rem;
+}
+
+.volunteerTitle{
+    color: #639C98;
+    font-size: 2.5rem;
+    z-index: 2;
+    position: relative;
+    top: -84rem;
+    right: -18rem;
+}
+
+.volunteerSubtitle{
+    color: #A4956F;
+    font-size: 1.2rem;
+    z-index: 2;
+    position: relative;
+    top: -85rem;
+    right: -32rem;
+}
+
+.volunteerSubtitle2{
+    color: #A4956F;
+    font-size: 1.2rem;
+    z-index: 2;
+    position: relative;
+    top: -86rem;
+    right: -31rem;
+}
+
+.teamButton{
+    color: #112627;
+    font-size: 1rem;
+    z-index: 3;
+    font-family: 'Cascadia Code';
+    text-transform: uppercase;
+    position: relative;
+    min-height: 3rem;
+    top: -83rem;
+    background-color: #186D73;
+    right: -30.6rem;
+}
+
+.forms{
+    display: flex;
+    position: relative;
+    top: -84rem;
+    left: 33rem;
+    justify-content: space-evenly;
+    align-content: stretch;
+    gap: 1rem;
+    flex-direction: column;
+    max-width: 18rem;
+    font-family: 'Cascadia Code';
+    font-size: 1rem;
+    z-index: 2;
+}
+
+.formInput{
+    background-color: #D8D8D8;
+    min-height: 2.5rem;
+    color: #112627;
+    z-index: 3;
+    font-size: .8rem;
+    font-family: 'Cascadia Code';
+    border-radius: 20px;
+    border-color: #d8d8d8;
+    padding: 0.5rem;
+}
+
+.buttonTop{
+    color: #112627;
+    font-family: 'Cascadia Code';
+    text-transform: uppercase;
+    background-color: #186D73;
+}

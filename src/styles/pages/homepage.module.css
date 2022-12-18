@@ -1,0 +1,121 @@
+.inicio{
+  display: flex;
+  overflow: hidden;
+}
+
+.homepagePic {
+  min-width: 64rem;
+  height: 70rem;
+  overflow: hidden;
+  object-fit: none;
+  z-index: 2;
+  background-position: center;
+  left: -18rem;
+  opacity: 0.7;
+  top: 3.7rem;
+  position: relative;
+}
+
+.background{
+  opacity: 0.3;
+  overflow: hidden;
+  background: url("/src/assets/backgroundHomepagePic.png");
+  filter: grayscale(100%);
+  background-size: contain;
+  background-repeat: round;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+  
+.backgroundHomepage {
+  background-size: cover;
+  flex-direction: column;
+  flex-basis: 100%;
+  overflow: hidden;
+  align-items: flex-end;
+  top: -20em;
+  display: flex;
+}
+  
+.titleInicio {
+  letter-spacing: -1px;
+  color: #d36234;
+  margin-top: 1em;
+  top: 3rem;
+  z-index: 2;
+  right: 10rem;
+  overflow: hidden;
+  font-family: 'Cascadia Code';
+  font-size: 7.25rem;
+  position: absolute;
+}
+  
+.subtitleInicio {
+  text-align: center;
+  top: 20rem;
+  left: 11rem;
+  z-index: 2;
+  position: absolute;
+  right: -24rem;
+  overflow: hidden;
+  color: #639c98a9;
+}
+  
+.pContainer {
+  background-size: 50%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Cascadia Code';
+  left: 52em;
+  z-index: 17;
+  position: absolute;
+  right: 290em;
+  display: flex;
+  top: -5em;
+}
+
+.pText {
+  box-shadow: 2px 2px 2px #0000004c;
+  align-items: center;
+  border-radius: 29px;
+  min-width: 13em;
+  color: #010a0a;
+  height: 8em;
+  min-height: 7.5em;
+  right: 12rem;
+  position: relative;
+  background-color: #18565a63;
+  z-index: 3;
+  top: 32rem;
+  padding: 1em;
+}
+  
+.pButton{
+  color: #639c98;
+  text-align: center;
+  width: 75%;
+  background-color: #18565a;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Cascadia Mono';
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 2px 2px #ffffff24;
+  bottom: 2.1rem;
+  position: absolute;
+  left: 2em;
+}
+
+.enfase{
+  color: #639c98;
+}
+
+.buttonSpace{
+  padding: 6em;
+}

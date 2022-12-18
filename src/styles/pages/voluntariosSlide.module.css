@@ -1,0 +1,22 @@
+.bigRow{
+    display: flex;
+    gap: 3rem;
+    top: 14rem;
+    border-radius: 20px;
+    padding: 1rem;
+    right: 23rem;
+    position: absolute;
+    background-color: #18696E;
+}
+
+.linkApi{
+    border-radius: 20px;
+    max-width: 10rem;
+    background-color: aliceblue;
+}
+
+.columnTitle{
+    font-size: 2rem;
+    max-width: 5rem;
+
+}
