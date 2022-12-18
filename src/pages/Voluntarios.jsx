@@ -58,8 +58,8 @@ export function Voluntarios() {
                 </div>
                <form className={styles.forms} onSubmit={handleCreateMessage}>
                     <input className={styles.formInput} placeholder="Digite o seu nome (social) completo" onChange={handleInputValueNome} />
-                    <input className={styles.formInput} placeholder="Digite seu e-mail" onChange={handleInputValueEmail} />
-                    <input className={styles.formInput} placeholder="Insira seu perfil do Linkedin" onChange={handleInputValueLinkedin} />
+                    <input className={styles.formInput} placeholder="Digite seu e-mail" type="email" onChange={handleInputValueEmail} />
+                    <input className={styles.formInput} placeholder="Insira seu perfil do Linkedin" type="url" onChange={handleInputValueLinkedin} />
                     <button type="submit" className={styles.buttonTop}>
                         Enviar
                     </button>

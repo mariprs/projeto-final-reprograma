@@ -32,9 +32,7 @@ export function Sobre() {
                 <div className={styles.container3}>
                     <p className={styles.pAbout}>
                         Ela achou grupos através do
-                            <a href="https://www.canalautismo.com.br" target="_blank">
-                            Canal Autismo
-                            </a>
+                            <a href="https://www.canalautismo.com.br" target="_blank"> Canal Autismo </a>
                         e começou a coletar opiniões acerca de o que seria válido para tal ambiente.
                     </p>
                 </div>
@@ -43,9 +41,7 @@ export function Sobre() {
                 <div className={styles.container4}>
                     <p className={styles.pAbout}>
                         A Inclu foi utilizada como seu projeto final no bootcamp de Front-end da 
-                        <a href="https://www.reprograma.com.br" target="_blank">
-                            Reprograma
-                        </a>
+                        <a href="https://www.reprograma.com.br" target="_blank"> Reprograma </a>
                     </p>
                 </div>
             </div>

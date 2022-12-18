@@ -70,7 +70,7 @@ export function Matriculas() {
                             <label className={styles.label}for="email">
                                 E-mail:
                             </label>
-                            <input id="email" className={styles.formInput} placeholder="Digite seu e-mail" onChange={handleInputValueEmailMatricula} />
+                            <input type="email" id="email" className={styles.formInput} placeholder="Digite seu e-mail" onChange={handleInputValueEmailMatricula} />
                         </div>
                         <div className={styles.question3}>
                             <label className={styles.label}for="date">

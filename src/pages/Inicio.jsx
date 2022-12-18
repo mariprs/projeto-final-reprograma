@@ -19,11 +19,8 @@ export function Inicio() {
       </span>
       <div className={styles.pContainer}>
         <span className={styles.pText}>
-          Ensinamos programação front-end
-            <span className={styles.enfase}>
-              do zero
-            </span> 
-          para pessoas neuroatípicas 
+          Ensinamos programação front-end <span className={styles.enfase}> do zero </span> 
+           para pessoas neuroatípicas 
           <Link to='/Ensino' className={styles.buttonSpace}>
             <button className={styles.pButton}>
               Clique aqui para saber mais

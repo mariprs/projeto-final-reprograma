@@ -43,7 +43,7 @@ export function Contato() {
                 <div className={styles.questions}>
                     <div className={styles.questions}>
                         <input className={styles.formInput} placeholder="Seu nome (social) completo" onChange={handleInputValueNomeContact} />
-                        <input className={styles.formInput} placeholder="Seu e-mail" onChange={handleInputValueEmailContact} />
+                        <input className={styles.formInput} type="email" placeholder="Seu e-mail" onChange={handleInputValueEmailContact} />
                         <textarea className={styles.formText} placeholder="Escreva a sua mensagem" onChange={handleInputValueMsgContact} />
                     </div>
                 </div>
